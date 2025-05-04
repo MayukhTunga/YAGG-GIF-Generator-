@@ -15,7 +15,7 @@ A JAX/Flax implementation of a text-to-GIF generation model using a pre-trained 
 *   **3D Diffusion Model:** Employs a Denoising Diffusion Probabilistic Model (DDPM) with a custom 3D U-Net architecture to model spatio-temporal data.
 *   **JAX/Flax Implementation:** Built entirely using JAX and the Flax neural network library for high performance, especially on TPUs/GPUs.
 *   **Factorized Attention:** Incorporates factorized spatial and temporal self-attention within the U-Net to manage memory usage on constrained hardware (like Colab TPUs/GPUs).
-*   **FastAPI Backend (Optional):** Includes code to serve the trained model via a FastAPI web API for inference.
+*   **FastAPI Backend (Seperate):** Includes code to serve the trained model via a FastAPI web API for inference.
 
 ## Architecture Overview
 
