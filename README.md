@@ -36,12 +36,11 @@ The model consists of two primary components:
         *   **U-Net Structure:** Standard encoder-decoder structure with skip connections.
 
 
-## Demo / Examples
+## Demo / Examples (This is just trained on 8k GIFs, More training to be done)
 
-*(TODO: Add a few example text prompts and the corresponding generated GIFs here!)*
+**Prompt:** "A Man Smiling" :
 
-**Prompt:** "A Man Smiling"
-**(Insert cat_dancing.gif)**
+![8k Train](https://github.com/user-attachments/assets/62669a48-cd15-4095-a42f-cfccbf95deec)
 
 
 ## Setup and Installation
